@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Permanent+Marker&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Permanent+Marker&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+/* familia de fuentes: Cinzel, Permanent Marker, Coming Soon, Sansita, Titillium Web */
+
+/* Estilo para h1 con ID específico */
+#titulo1 {
+    font-family: "Cinzel", serif; 
+    color: rgb(43, 5, 5);  /* Cambia el color a RGB */
+    border: 5px solid blueviolet;
+    border-radius: 10px;
+    padding: 10px;
+    width: 450px;
+}
+/* Estilo clase para h2 */
+.subtitulo {
+    font-family: "Permanent Marker", cursive; /* Familia de fuente para h2 */
+    color: purple; /* Cambia el color a purpura */
+    border: 5px dashed blue;
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px;
+
+}
+/* Estilo clase para h3 */ 
+.otrosubtitulo {
+    font-family: "Coming Soon", cursive; /* Familia de fuente para h3 */
+    font-size: 25px; /* Tamaño de fuente para h3 */
+    color: red;  /* Cambia el color a rojo */
+    border: 5px dashed blue;
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px;
+}
+/* Estilo para listas ul */
+ul {
+    font-family: "Sansita", sans-serif; /* Familia de  fuente para las lista desordenada */
+    color: green; /* Color de las listas */
+    border: 5px ridge gray;
+    border-radius: 15px;
+    padding: 25px;
+    width: 300px;
+}
+/* Estilo para listas ol */
+ol {
+    font-family: "Sansita", sans-serif; /* Familia de  fuente para las lista ordenada */
+    color: green; /* Color de las listas */
+    border: 5px double #4B0082;
+    border-radius: 15px;
+    padding: 40px;
+    width: 800px;
+}
+/* Estilo para párrafos p*/
+p {
+    font-family: "Titillium Web", sans-serif; /* Familia de  fuente para párrafos */
+    font-size: 21px; /* Tamaño de fuente para párrafos */
+    color: #4B0082; /* Color usando paleta */
+    border: 5px inset brown;
+    border-radius: 15px; /* Borde redondeado */
+    padding: 20px;
+    width: 900px;
+}
+/* Estilo color sólido a todos los archivos html e.*/
+body {
+    background-color: aquamarine;
+}
+.enlaces {
+    border: 5px double #4B0082;
+    border-radius: 15px;
+    padding: 15px;
+    width: 450px;
+    font-family: "Titillium Web", sans-serif; /* Familia de  fuente para enlaces */
+    font-size: 21px; /* Tamaño de fuente para enlaces */
+}
