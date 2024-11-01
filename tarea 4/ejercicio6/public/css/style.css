@@ -1,0 +1,73 @@
+/*NO MODIFICAR*/
+
+body {
+    background-color: #fff;
+    color: #333;
+    font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding: 1em;
+    margin: 0;
+}
+
+ul {
+    width: 800px;
+    height: 490px;
+    list-style:none;
+    padding: 0;
+    margin: 0;
+    border: 2px solid #4D7298;
+}
+
+li {
+    background-color: #4D7298;
+    border: 2px solid #77A6B6;
+    border-radius: .5em;
+    color: #fff;
+    padding: .5em;
+    margin: .5em;
+}
+
+/*DESDE ACA MODIFICAR*/
+/* Modificar los siguientes elementos para que se vea como en la imagen de la consigna */
+ul {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.l1 { /* Juan - 2do */
+    order: 2;
+    align-self:center
+}
+
+.l2 { /* Cristian - 3ero */
+    order: 3; 
+    align-self: flex-end;
+}
+
+.l3 { /* Ramon 4to  */
+    order: 4;
+}
+
+.l4 { /* ablo 5to */
+    order: 5;
+}
+
+.l5 { /* Roberto - 1ero */
+    order: 1;
+    align-self: flex-start;
+}
+.l6 {  /* Gabriel - 6to */
+    order: 6; 
+    align-self: flex-start;
+}
+
+.l7 { /* Sebastian - 7mo */
+    order: 7;
+    align-self: flex-start;
+}
+
+.l8 { /* Ruben - 8vo */
+    order: 8;
+    align-self: flex-start;
+}
+
